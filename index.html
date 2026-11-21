@@ -1,0 +1,892 @@
+<!--
+Template Name: FoodEpik (v2.0)
+File Name: index.html
+Author Name: ThemeVault
+Author URI: https://www.themevault.net/
+License URI: https://www.themevault.net/license/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FoodEpik — Restaurant &amp; Online Food Ordering HTML Template</title>
+    <meta name="description" content="FoodEpik — responsive restaurant one-page HTML template with menu, reservations, gallery and six switchable color themes.">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+
+<!-- Color theme switcher -->
+<div class="fe-switcher" id="fe-switcher">
+    <button type="button" class="fe-switcher-toggle" aria-expanded="false" aria-controls="fe-switcher-panel" aria-label="Choose color theme">
+        <i class="fa-solid fa-palette" aria-hidden="true"></i>
+    </button>
+    <div class="fe-switcher-panel" id="fe-switcher-panel">
+        <button type="button" class="fe-swatch-tamarillo" data-fe-theme="tamarillo" aria-label="Tamarillo red theme"></button>
+        <button type="button" class="fe-swatch-pomegranate" data-fe-theme="pomegranate" aria-label="Pomegranate orange-red theme"></button>
+        <button type="button" class="fe-swatch-hot-cinnamon" data-fe-theme="hot-cinnamon" aria-label="Hot cinnamon orange theme"></button>
+        <button type="button" class="fe-swatch-egg-blue" data-fe-theme="egg-blue" aria-label="Egg blue teal theme"></button>
+        <button type="button" class="fe-swatch-west-side" data-fe-theme="west-side" aria-label="West side amber theme"></button>
+        <button type="button" class="fe-swatch-dark-green" data-fe-theme="dark-green" aria-label="Dark green theme"></button>
+    </div>
+</div>
+
+<!-- Header -->
+<header data-section="header">
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top fe-navbar" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">FOOdEPIK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#feNavbar" aria-controls="feNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="feNavbar">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item"><a class="nav-link active" href="#banner">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Elements</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="accordions.html"><i class="fa-solid fa-circle-plus" aria-hidden="true"></i>Accordions</a></li>
+                            <li><a class="dropdown-item" href="alerts.html"><i class="fa-solid fa-bell" aria-hidden="true"></i>Alert</a></li>
+                            <li><a class="dropdown-item" href="buttons.html"><i class="fa-solid fa-link" aria-hidden="true"></i>Button</a></li>
+                            <li><a class="dropdown-item" href="form-fields.html"><i class="fa-solid fa-align-justify" aria-hidden="true"></i>Form Field</a></li>
+                            <li><a class="dropdown-item" href="grid.html"><i class="fa-solid fa-table-cells" aria-hidden="true"></i>Grid</a></li>
+                            <li><a class="dropdown-item" href="icons.html"><i class="fa-solid fa-heart" aria-hidden="true"></i>Icons</a></li>
+                            <li><a class="dropdown-item" href="message.html"><i class="fa-solid fa-comment" aria-hidden="true"></i>Message</a></li>
+                            <li><a class="dropdown-item" href="tab.html"><i class="fa-solid fa-table-columns" aria-hidden="true"></i>Tab</a></li>
+                            <li><a class="dropdown-item" href="typography.html"><i class="fa-solid fa-font" aria-hidden="true"></i>Typography</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero -->
+    <section data-section="banner" id="banner" class="fe-hero" aria-label="Welcome">
+        <div class="container">
+            <h1>Foodepik</h1>
+            <p>Discover and experience International</p>
+        </div>
+    </section>
+
+    <!-- Feature strip -->
+    <section data-section="special" id="special" class="fe-strip" aria-label="Highlights">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="fe-strip-item">
+                        <img src="images/carrot.png" alt="" aria-hidden="true">
+                        <div>
+                            <h3>Fresh Food</h3>
+                            <p>Produce bought the same morning it is cooked.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fe-strip-item">
+                        <img src="images/chef-hat-outline-symbol.png" alt="" aria-hidden="true">
+                        <div>
+                            <h3>Chef's Specials</h3>
+                            <p>A new dish from the chef every day of the week.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fe-strip-item">
+                        <img src="images/red-wine-glass.png" alt="" aria-hidden="true">
+                        <div>
+                            <h3>Good Wines</h3>
+                            <p>A short list of wines chosen to go with the menu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section data-section="about" id="about" class="fe-section" aria-labelledby="about-title">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-md-6 fe-reveal">
+                    <div class="fe-section-title">
+                        <span class="fe-kicker">History</span>
+                        <h2 id="about-title">About Us</h2>
+                    </div>
+                    <p>Welcome to FoodEpik, a modern restaurant with a focus on premium food tastes.</p>
+                    <p>We cook from scratch, buy fresh every morning and set the table as if friends were coming round. Come for a quiet lunch, a long dinner or a glass of wine at the end of the day.</p>
+                    <a href="#services" class="btn btn-fe-outline">Find More</a>
+                </div>
+                <div class="col-md-6 fe-reveal">
+                    <div class="fe-framed-img">
+                        <img src="images/Image1.png" class="img-fluid w-100" alt="Chef preparing a dish in the restaurant kitchen" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section data-section="services" id="services" class="fe-section pt-0" aria-labelledby="services-title">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6 order-md-2 fe-reveal">
+                    <div class="text-md-end">
+                        <div class="fe-section-title">
+                            <span class="fe-kicker">For All Your Occasions</span>
+                            <h2 id="services-title">Services</h2>
+                        </div>
+                        <p>Birthdays, anniversaries and family get-togethers are easy to plan with us. Tell us how many of you are coming and what you would like to eat, and we will set aside the right table.</p>
+                        <p>For larger groups we can serve a set menu in our private dining room. Send a reservation request below and we will call you to talk through the details.</p>
+                        <a href="#reservation" class="btn btn-fe-outline">Find More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-1 fe-reveal">
+                    <div class="fe-service">
+                        <div class="fe-service-icon"><i class="fa-solid fa-wifi" aria-hidden="true"></i></div>
+                        <div>
+                            <h3>Free Wi-Fi</h3>
+                            <p>Stay as long as you like. Free Wi-Fi is available at every table.</p>
+                        </div>
+                    </div>
+                    <div class="fe-service">
+                        <div class="fe-service-icon"><i class="fa-solid fa-martini-glass" aria-hidden="true"></i></div>
+                        <div>
+                            <h3>Drinks and Cocktails</h3>
+                            <p>A small bar with wine, cocktails and soft drinks to go with your meal.</p>
+                        </div>
+                    </div>
+                    <div class="fe-service mb-0">
+                        <div class="fe-service-icon"><i class="fa-solid fa-gift" aria-hidden="true"></i></div>
+                        <div>
+                            <h3>Gift Vouchers</h3>
+                            <p>A voucher for a meal here makes an easy present. Ask at the counter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section data-section="menu" id="menu" class="fe-section pt-0" aria-labelledby="menu-title">
+        <div class="container">
+            <div class="fe-section-title text-center">
+                <span class="fe-kicker">Discover</span>
+                <h2 id="menu-title">Our Menu</h2>
+            </div>
+
+            <h3 class="fe-course-heading">Starters</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image2.png" alt="Tomato bruschetta" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Tomato Bruschetta <span class="fe-price">$4.00</span></h4>
+                            <p>tomatoes / olive oil / cheese</p>
+                        </div>
+                    </div>
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image3.png" alt="Avocado and mango salsa" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Avocado &amp; Mango Salsa <span class="fe-price">$4.00</span></h4>
+                            <p>avocado / mango / tomatoes</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image4.png" alt="Marinated grilled shrimp" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Marinated Grilled Shrimp <span class="fe-price">$4.00</span></h4>
+                            <p>fresh shrimp / olive oil</p>
+                        </div>
+                    </div>
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image5.png" alt="Baked potato skins" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Baked Potato Skins <span class="fe-price">$4.00</span></h4>
+                            <p>potatoes / oil / garlic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="fe-course-heading">Main Courses</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image6.png" alt="Braised pork chops" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Braised Pork Chops <span class="fe-price">$4.00</span></h4>
+                            <p>4 bone-in pork chops / olive oil / garlic / onion</p>
+                        </div>
+                    </div>
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image7.png" alt="Sriracha beef skewers" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Sriracha Beef Skewers <span class="fe-price">$4.00</span></h4>
+                            <p>beef / garlic / sesame oil / vinegar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image8.png" alt="Coconut fried chicken" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Coconut Fried Chicken <span class="fe-price">$4.00</span></h4>
+                            <p>8 chicken pieces / coconut milk</p>
+                        </div>
+                    </div>
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image9.png" alt="Chicken with garlic" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Chicken With Garlic <span class="fe-price">$4.00</span></h4>
+                            <p>chicken / cherry tomatoes / olive oil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="fe-course-heading">Soups</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image10.png" alt="Terrific turkey chili" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Terrific Turkey Chili <span class="fe-price">$4.00</span></h4>
+                            <p>turkey / oregano / tomato paste / peppers</p>
+                        </div>
+                    </div>
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image11.png" alt="Cream of asparagus soup" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Cream Of Asparagus Soup <span class="fe-price">$4.00</span></h4>
+                            <p>asparagus / potato / celery / onion / pepper</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image12.png" alt="Italian sausage tortellini" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Italian Sausage Tortellini <span class="fe-price">$4.00</span></h4>
+                            <p>cheese tortellini / sausage / garlic</p>
+                        </div>
+                    </div>
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image13.png" alt="Italian sausage soup" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Italian Sausage Soup <span class="fe-price">$4.00</span></h4>
+                            <p>italian sausage / garlic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="fe-course-heading">Desserts</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image11.png" alt="Terrific turkey chili" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Terrific Turkey Chili <span class="fe-price">$4.00</span></h4>
+                            <p>turkey / oregano / tomato paste / peppers</p>
+                        </div>
+                    </div>
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image12.png" alt="Cream of asparagus soup" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Cream Of Asparagus Soup <span class="fe-price">$4.00</span></h4>
+                            <p>asparagus / potato / celery / onion / pepper</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image13.png" alt="Italian sausage tortellini" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Italian Sausage Tortellini <span class="fe-price">$4.00</span></h4>
+                            <p>cheese tortellini / sausage / garlic</p>
+                        </div>
+                    </div>
+                    <div class="fe-menu-item fe-reveal">
+                        <img src="images/Image14.png" alt="Italian sausage soup" loading="lazy">
+                        <div class="fe-menu-item-body">
+                            <h4>Italian Sausage Soup <span class="fe-price">$4.00</span></h4>
+                            <p>italian sausage / garlic</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="menu.html" class="btn btn-fe-outline">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open hours band -->
+    <section data-section="open" id="open" class="fe-band fe-band-open" aria-labelledby="open-title">
+        <div class="container fe-band-pad text-center">
+            <div class="fe-section-title fe-on-dark text-center">
+                <span class="fe-kicker">Reserve A Table</span>
+                <h2 id="open-title">Open Hours</h2>
+            </div>
+            <p>Monday-Friday: 10 AM - 11 PM</p>
+            <p>Saturday-Sunday: 9 AM - 1 PM</p>
+            <a href="#reservation" class="btn btn-fe-light mt-3">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Dishes -->
+    <section data-section="dishes" id="dishes" class="fe-section" aria-labelledby="dishes-title">
+        <div class="container">
+            <div class="fe-section-title text-center">
+                <span class="fe-kicker">Enjoy One Of Our Delicious Plates</span>
+                <h2 id="dishes-title">Our Awesome Dishes</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-sm-6 col-md-4 col-lg-3 fe-reveal">
+                    <article class="fe-card">
+                        <div class="fe-card-media"><img src="images/Image18.png" alt="Signature plated dish" loading="lazy"></div>
+                        <div class="fe-card-body">
+                            <h3>Roasted Vegetable Casserole</h3>
+                            <span class="fe-price">$9.00</span>
+                            <p>sweet potato / broccoli / pepper / herbs</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 fe-reveal">
+                    <article class="fe-card">
+                        <div class="fe-card-media"><img src="images/Image19.png" alt="Signature plated dish" loading="lazy"></div>
+                        <div class="fe-card-body">
+                            <h3>Herb Beef Noodle Bowl</h3>
+                            <span class="fe-price">$9.00</span>
+                            <p>beef / potato / rice noodles / basil</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 fe-reveal">
+                    <article class="fe-card">
+                        <div class="fe-card-media"><img src="images/Image20.png" alt="Signature plated dish" loading="lazy"></div>
+                        <div class="fe-card-body">
+                            <h3>Creamy Garlic Tagliatelle</h3>
+                            <span class="fe-price">$9.00</span>
+                            <p>tagliatelle / garlic / cheese / bacon</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 fe-reveal">
+                    <article class="fe-card">
+                        <div class="fe-card-media"><img src="images/Image21.png" alt="Signature plated dish" loading="lazy"></div>
+                        <div class="fe-card-body">
+                            <h3>Spring Onion Bake</h3>
+                            <span class="fe-price">$9.00</span>
+                            <p>cheese / spring onion / cream / pepper</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 fe-reveal">
+                    <article class="fe-card">
+                        <div class="fe-card-media"><img src="images/Image22.png" alt="Signature plated dish" loading="lazy"></div>
+                        <div class="fe-card-body">
+                            <h3>Smoked Salmon Tostada</h3>
+                            <span class="fe-price">$9.00</span>
+                            <p>smoked salmon / red onion / dill / lime</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 fe-reveal">
+                    <article class="fe-card">
+                        <div class="fe-card-media"><img src="images/Image23.png" alt="Signature plated dish" loading="lazy"></div>
+                        <div class="fe-card-body">
+                            <h3>Spiced Rice Stew</h3>
+                            <span class="fe-price">$9.00</span>
+                            <p>rice / tomato / peppers / warm bread</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 fe-reveal">
+                    <article class="fe-card">
+                        <div class="fe-card-media"><img src="images/Image24.png" alt="Signature plated dish" loading="lazy"></div>
+                        <div class="fe-card-body">
+                            <h3>Penne With Tomato And Basil</h3>
+                            <span class="fe-price">$9.00</span>
+                            <p>penne / tomato / basil / parsley</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 fe-reveal">
+                    <article class="fe-card">
+                        <div class="fe-card-media"><img src="images/Image25.png" alt="Signature plated dish" loading="lazy"></div>
+                        <div class="fe-card-body">
+                            <h3>Small Seasonal Plates</h3>
+                            <span class="fe-price">$9.00</span>
+                            <p>seasonal vegetables / herbs / olive oil / white wine</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="menu.html" class="btn btn-fe-outline">See All Items</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discount band -->
+    <section data-section="discount" id="discount" class="fe-band fe-band-discount" aria-label="Weekend discount">
+        <div class="container fe-band-pad text-center">
+            <p class="fe-discount-line">Get <span class="fe-xl">40%</span> Discount On Mains &amp; Drink Every Weekend</p>
+        </div>
+    </section>
+
+    <!-- Reservation -->
+    <section data-section="reservation" id="reservation" class="fe-section" aria-labelledby="reservation-title">
+        <div class="container">
+            <div class="fe-section-title text-center">
+                <span class="fe-kicker">Table Available</span>
+                <h2 id="reservation-title">Make Online Reservations</h2>
+            </div>
+            <div class="row gy-4 align-items-center">
+                <div class="col-md-4 order-md-1 d-none d-md-block fe-reveal">
+                    <img src="images/Image27.png" class="img-fluid w-100" alt="Fresh flowers on a restaurant table" loading="lazy">
+                </div>
+                <div class="col-md-4 order-md-2 fe-reveal">
+                    <form class="fe-reservation-form" aria-labelledby="reservation-title" novalidate>
+                        <div class="mb-3 fe-input-icon">
+                            <label for="res-name" class="visually-hidden">Your name</label>
+                            <i class="fa-solid fa-user" aria-hidden="true"></i>
+                            <input class="form-control" id="res-name" name="name" placeholder="Your Name" type="text" autocomplete="name" required>
+                        </div>
+                        <div class="mb-3 fe-input-icon">
+                            <label for="res-phone" class="visually-hidden">Phone</label>
+                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                            <input class="form-control" id="res-phone" name="phone" placeholder="Phone" type="tel" autocomplete="tel" required>
+                        </div>
+                        <div class="mb-3 fe-input-icon">
+                            <label for="res-email" class="visually-hidden">Email</label>
+                            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            <input class="form-control" id="res-email" name="email" placeholder="Email" type="email" autocomplete="email" required>
+                        </div>
+                        <div class="mb-3 fe-input-icon">
+                            <label for="res-persons" class="visually-hidden">Number of persons</label>
+                            <i class="fa-solid fa-users" aria-hidden="true"></i>
+                            <input class="form-control" id="res-persons" name="persons" placeholder="Number Of Person" type="number" min="1" required>
+                        </div>
+                        <div class="mb-3 fe-input-icon">
+                            <label for="res-date" class="visually-hidden">Booking date</label>
+                            <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+                            <input class="form-control" id="res-date" name="date" type="date" required>
+                        </div>
+                        <div class="mb-3 fe-input-icon">
+                            <label for="res-time" class="visually-hidden">Booking time</label>
+                            <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                            <input class="form-control" id="res-time" name="time" type="time" required>
+                        </div>
+                        <p class="small text-center">Please Submit Your Reservation Details And We Will Contact You To Confirm Your Booking</p>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-fe-outline">Submit</button>
+                        </div>
+                        <p class="tv-form-note" role="status" tabindex="-1" hidden>Thank you! We have your details and will contact you shortly to confirm your booking.</p>
+                    </form>
+                </div>
+                <div class="col-md-4 order-md-3 d-none d-md-block fe-reveal">
+                    <img src="images/Image28.png" class="img-fluid w-100" alt="Glasses of red wine on a table" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section data-section="gallery" id="gallery" class="fe-section pt-0" aria-labelledby="gallery-title">
+        <div class="container">
+            <div class="fe-section-title text-center">
+                <span class="fe-kicker">Moments From Our Kitchen</span>
+                <h2 id="gallery-title">Our Gallery</h2>
+            </div>
+            <div class="row g-4 fe-gallery">
+                <div class="col-sm-6 col-md-4 fe-reveal">
+                    <a href="images/Image53.jpeg" aria-label="View photo: plated gourmet dish">
+                        <figure><img src="images/Image53.jpeg" class="img-fluid w-100" alt="Plated gourmet dish" loading="lazy"></figure>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 fe-reveal">
+                    <a href="images/Image54.jpeg" aria-label="View photo: restaurant meal close-up">
+                        <figure><img src="images/Image54.jpeg" class="img-fluid w-100" alt="Restaurant meal close-up" loading="lazy"></figure>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 fe-reveal">
+                    <a href="images/Image55.jpeg" aria-label="View photo: chef's special of the day">
+                        <figure><img src="images/Image55.jpeg" class="img-fluid w-100" alt="Chef's special of the day" loading="lazy"></figure>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 fe-reveal">
+                    <a href="images/Image56.jpeg" aria-label="View photo: fresh appetizer platter">
+                        <figure><img src="images/Image56.jpeg" class="img-fluid w-100" alt="Fresh appetizer platter" loading="lazy"></figure>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 fe-reveal">
+                    <a href="images/Image57.jpeg" aria-label="View photo: seasonal main course">
+                        <figure><img src="images/Image57.jpeg" class="img-fluid w-100" alt="Seasonal main course" loading="lazy"></figure>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4 fe-reveal">
+                    <a href="images/Image58.jpg" aria-label="View photo: dessert selection">
+                        <figure><img src="images/Image58.jpg" class="img-fluid w-100" alt="Dessert selection" loading="lazy"></figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Private dining band -->
+    <section data-section="dinning" id="dinning" class="fe-band fe-band-dining" aria-labelledby="dining-title">
+        <div class="container fe-band-pad text-center">
+            <h2 id="dining-title">Private Dining</h2>
+            <p class="mx-auto fe-band-lede">We offer an extensive range of menu's, from 3 to 7 courses with wine pairings to suit every occasion.</p>
+        </div>
+    </section>
+
+    <!-- Staff -->
+    <section data-section="staff" id="staff" class="fe-section" aria-labelledby="staff-title">
+        <div class="container">
+            <div class="fe-section-title text-center">
+                <span class="fe-kicker">We Love What We Do</span>
+                <h2 id="staff-title">Our Staff</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-3 fe-reveal">
+                    <div class="fe-staff">
+                        <img src="images/Image37.png" class="img-fluid w-100" alt="Sara Johnson, owner" loading="lazy">
+                        <h3>Sara Johnson</h3>
+                        <span class="fe-role">(Owner)</span>
+                        <p>Sara opened the restaurant and still greets guests at the door most evenings.</p>
+                        <div class="fe-social">
+                            <a href="#" aria-label="Sara Johnson on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Sara Johnson on X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Sara Johnson on Google"><i class="fa-brands fa-google-plus-g" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Sara Johnson on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Sara Johnson on Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 fe-reveal">
+                    <div class="fe-staff">
+                        <img src="images/Image38.png" class="img-fluid w-100" alt="John Anderson, chef" loading="lazy">
+                        <h3>John Anderson</h3>
+                        <span class="fe-role">(Chef)</span>
+                        <p>John plans the menu, shops at the market each morning and runs the kitchen.</p>
+                        <div class="fe-social">
+                            <a href="#" aria-label="John Anderson on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="John Anderson on X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="John Anderson on Google"><i class="fa-brands fa-google-plus-g" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="John Anderson on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="John Anderson on Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 fe-reveal">
+                    <div class="fe-staff">
+                        <img src="images/Image39.png" class="img-fluid w-100" alt="Richard Jackson, waiter" loading="lazy">
+                        <h3>Richard Jackson</h3>
+                        <span class="fe-role">(Waiter)</span>
+                        <p>Richard looks after the main dining room and knows the wine list by heart.</p>
+                        <div class="fe-social">
+                            <a href="#" aria-label="Richard Jackson on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Richard Jackson on X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Richard Jackson on Google"><i class="fa-brands fa-google-plus-g" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Richard Jackson on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Richard Jackson on Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 fe-reveal">
+                    <div class="fe-staff">
+                        <img src="images/Image40.png" class="img-fluid w-100" alt="Steve Smith, waiter" loading="lazy">
+                        <h3>Steve Smith</h3>
+                        <span class="fe-role">(Waiter)</span>
+                        <p>Steve takes care of the terrace and the private dining bookings.</p>
+                        <div class="fe-social">
+                            <a href="#" aria-label="Steve Smith on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Steve Smith on X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Steve Smith on Google"><i class="fa-brands fa-google-plus-g" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Steve Smith on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                            <a href="#" aria-label="Steve Smith on Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deal of the day band -->
+    <section data-section="deal" id="deal" class="fe-band fe-band-deal" aria-labelledby="deal-title">
+        <div class="container fe-band-pad text-center">
+            <h2 id="deal-title">Deal Of The Day</h2>
+            <p class="mx-auto fe-band-lede">We offer an extensive range of menu's, from 3 to 7 courses with wine pairings to suit every occasion.</p>
+            <div class="fe-countdown" id="fe-countdown" data-days="15" role="timer" aria-label="Deal countdown">
+                <div><span class="fe-count-num fe-days">00</span><span class="fe-count-label">Days</span></div>
+                <div><span class="fe-count-num fe-hrs">00</span><span class="fe-count-label">Hours</span></div>
+                <div><span class="fe-count-num fe-minutes">00</span><span class="fe-count-label">Minutes</span></div>
+                <div><span class="fe-count-num fe-seconds">00</span><span class="fe-count-label">Seconds</span></div>
+            </div>
+            <div class="fe-freebie">
+                <p class="fe-free">Free</p>
+                <span class="fe-free-what">Cheese<br>Sticks</span>
+                <h4>With Your Next Online Order</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients band -->
+    <section data-section="clients" id="clients" class="fe-band fe-band-clients" aria-label="Our numbers">
+        <div class="container fe-band-pad">
+            <p class="fe-clients-lead">Catering To Our Clients, And Providing Our Fine Food And Service, Allows Us To Host Elegant And Successful Events Year After Year.</p>
+            <div class="fe-clients-rule" aria-hidden="true"></div>
+            <div class="row">
+                <div class="col-6 col-md-3">
+                    <div class="fe-counter-block">
+                        <p class="fe-counter" data-target="8648">8648</p>
+                        <h3>Client Served</h3>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="fe-counter-block">
+                        <p class="fe-counter" data-target="45">45</p>
+                        <h3>Cook &amp; Waiters</h3>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="fe-counter-block">
+                        <p class="fe-counter" data-target="250">250</p>
+                        <h3>Dishes In Menu</h3>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="fe-counter-block">
+                        <p class="fe-counter" data-target="95">95</p>
+                        <h3>Beverages</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="fe-numbered">
+                        <span class="fe-num">01.</span>
+                        <h3>Professional Staff</h3>
+                        <p>A small, trained team that knows the menu and takes the time to explain it.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fe-numbered">
+                        <span class="fe-num">02.</span>
+                        <h3>Consistency</h3>
+                        <p>The same dish tastes the same on a Tuesday lunch and a Saturday night.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fe-numbered">
+                        <span class="fe-num">03.</span>
+                        <h3>Catering Service</h3>
+                        <p>We cook for parties and events away from the restaurant, using the same menu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section data-section="testimonials" id="testimonials" class="fe-section" aria-labelledby="testimonials-title">
+        <div class="container">
+            <div class="fe-section-title text-center">
+                <span class="fe-kicker">Happy Customer Says</span>
+                <h2 id="testimonials-title">Our Testimonials</h2>
+            </div>
+            <div id="feTestimonials" class="carousel slide fe-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="fe-testimonial">
+                            <p>We came for a birthday dinner and stayed for three hours. The food arrived hot, the staff were friendly and nobody rushed us.</p>
+                            <div class="fe-quote"><i class="fa-solid fa-quote-left" aria-hidden="true"></i></div>
+                            <p class="fe-who">David Warner</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="fe-testimonial">
+                            <p>The soup of the day is worth the trip on its own. We have booked a table for the whole family twice since.</p>
+                            <div class="fe-quote"><i class="fa-solid fa-quote-left" aria-hidden="true"></i></div>
+                            <p class="fe-who">David Warner</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="fe-testimonial">
+                            <p>Booking was simple, the table was ready on time and the dessert was the best part of the evening.</p>
+                            <div class="fe-quote"><i class="fa-solid fa-quote-left" aria-hidden="true"></i></div>
+                            <p class="fe-who">David Warner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#feTestimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+                    <button type="button" data-bs-target="#feTestimonials" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
+                    <button type="button" data-bs-target="#feTestimonials" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section data-section="blog" id="blog" class="fe-section pt-0" aria-labelledby="blog-title">
+        <div class="container">
+            <div class="fe-section-title text-center">
+                <span class="fe-kicker">View The Latest Articles</span>
+                <h2 id="blog-title">Our Blog</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 fe-reveal">
+                    <article class="fe-blog-card">
+                        <img src="images/Image43.png" alt="Black bean mushroom soup in a bowl" loading="lazy">
+                        <div class="fe-blog-overlay">
+                            <span class="fe-date">April 17, 2017</span>
+                            <h3>Black Bean Mushroom Soup</h3>
+                            <p>The soup that has sat on our counter every Tuesday since we opened: black beans, mushrooms and a pot that is never hurried.</p>
+                            <a href="blog-single.html" class="btn btn-fe-light">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 fe-reveal">
+                    <article class="fe-blog-card">
+                        <img src="images/Image44.png" alt="Chef plating a seasonal recipe" loading="lazy">
+                        <div class="fe-blog-overlay">
+                            <span class="fe-date">April 17, 2017</span>
+                            <h3>Black Bean Mushroom Soup</h3>
+                            <p>The soup that has sat on our counter every Tuesday since we opened: black beans, mushrooms and a pot that is never hurried.</p>
+                            <a href="blog-single.html" class="btn btn-fe-light">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 fe-reveal">
+                    <article class="fe-blog-card">
+                        <img src="images/Image45.png" alt="Fresh ingredients on a kitchen counter" loading="lazy">
+                        <div class="fe-blog-overlay">
+                            <span class="fe-date">April 17, 2017</span>
+                            <h3>Black Bean Mushroom Soup</h3>
+                            <p>The soup that has sat on our counter every Tuesday since we opened: black beans, mushrooms and a pot that is never hurried.</p>
+                            <a href="blog-single.html" class="btn btn-fe-light">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section data-section="newsletter" id="newsletter" class="fe-band fe-band-newsletter" aria-labelledby="newsletter-title">
+        <div class="container fe-newsletter">
+            <div class="row align-items-center gy-3">
+                <div class="col-md-3">
+                    <h2 id="newsletter-title">News Letter</h2>
+                </div>
+                <div class="col-md-5">
+                    <p class="mb-0">Sign up with your email to get fresh updates about our events...</p>
+                </div>
+                <div class="col-md-4">
+                    <form class="fe-newsletter-form" novalidate>
+                        <label for="newsletter-email" class="visually-hidden">Email address</label>
+                        <div class="input-group">
+                            <input class="form-control" id="newsletter-email" name="subscribe" placeholder="Enter Your Email Address" type="email" autocomplete="email" required>
+                            <button type="submit" class="btn btn-fe">Sign Up</button>
+                        </div>
+                        <p class="tv-form-note" role="status" tabindex="-1" hidden>You are on the list. Watch your inbox for our next update.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer data-section="footer" id="foodfooter" class="fe-footer">
+    <div class="container">
+        <div class="row gy-4">
+            <div class="col-md-4">
+                <h2>About Us</h2>
+                <p>A neighbourhood restaurant with fresh seasonal food, a short wine list and a quiet table whenever you need one.</p>
+                <div class="fe-social justify-content-start">
+                    <a href="#" aria-label="FoodEpik on Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="FoodEpik on X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="FoodEpik on Google"><i class="fa-brands fa-google-plus-g" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="FoodEpik on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="FoodEpik on Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h2>Working Time</h2>
+                <div class="fe-hours"><span>Mon-Tue</span><span>09.00-22.00</span></div>
+                <div class="fe-hours"><span>Wed</span><span>08.30-20.30</span></div>
+                <div class="fe-hours"><span>Thu-Fri</span><span>9.45-19.55</span></div>
+                <div class="fe-hours"><span>Sat</span><span>10.00-20.45</span></div>
+                <div class="fe-hours"><span>Sun</span><span>08.00-19.10</span></div>
+                <div class="fe-hours"><span>Holidays</span><span>Holidays</span></div>
+            </div>
+            <div class="col-md-4">
+                <h2>Menu Categories</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li><a href="menu.html">Appetizers</a></li>
+                            <li><a href="menu.html">Breakfast</a></li>
+                            <li><a href="menu.html">Lunch</a></li>
+                            <li><a href="menu.html">Dinner</a></li>
+                            <li><a href="menu.html">Soups</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li><a href="menu.html">Appetizers</a></li>
+                            <li><a href="menu.html">Breakfast</a></li>
+                            <li><a href="menu.html">Lunch</a></li>
+                            <li><a href="menu.html">Dinner</a></li>
+                            <li><a href="menu.html">Soups</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="fe-backlink">
+    <div class="container">
+        <!--Do not remove Backlink from footer of the template. To remove it you can purchase the Backlink !-->
+        <p class="mb-0">&copy; All right reserved.  <a href="https://www.themevault.net/foodepik-online-food-ordering-template-free" target="_blank" rel="noopener">FoodEpik template</a> by ThemeVault</p>
+    </div>
+</div>
+
+<button id="fe-back-to-top" type="button" aria-label="Back to top"><i class="fa-solid fa-angles-up" aria-hidden="true"></i></button>
+
+<!-- Gallery lightbox -->
+<dialog id="fe-lightbox" class="fe-lightbox" aria-label="Image viewer">
+    <img src="" alt="">
+    <div class="fe-lightbox-bar">
+        <button type="button" class="fe-lightbox-prev" aria-label="Previous image"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+        <button type="button" class="fe-lightbox-close" aria-label="Close viewer"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+        <button type="button" class="fe-lightbox-next" aria-label="Next image"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+    </div>
+</dialog>
+
+<script src="js/bootstrap.bundle.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
